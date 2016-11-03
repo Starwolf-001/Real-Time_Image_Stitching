@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1473339997 source:d:\documents\qut\beb801\image_stitching\main.cpp
+	<stdio.h>
+	<iostream>
+	"opencv2/opencv.hpp"
+	"opencv2/core/core.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/nonfree/nonfree.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+

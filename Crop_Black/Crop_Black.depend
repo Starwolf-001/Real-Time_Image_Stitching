@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1477819939 source:d:\documents\qut\beb801\crop_black\main.cpp
+	<stdio.h>
+	<iostream>
+	<time.h>
+	"opencv2/opencv.hpp"
+

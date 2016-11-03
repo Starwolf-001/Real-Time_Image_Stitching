@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1477791194 source:d:\documents\qut\beb801\rotate_output\main.cpp
+	<stdio.h>
+	<iostream>
+	"opencv2/opencv.hpp"
+
