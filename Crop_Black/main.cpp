@@ -68,7 +68,13 @@ int main() {
     Rect roi(thresholdLength, borderRectangle);
     Mat cropped = input_img(roi);
 
-    imwrite("Update_o.jpg", cropped);
+    // Set JPEG lossy compression to minimal
+    vector <int> compression_params;
+    compression_params.push_back(CV_IMWRITE_JPEG_QUALITY);
+    // 100% best possible quality
+    compression_params.push_back(100);
+
+    imwrite("Update_o.jpg", cropped, compression_params);
 
     //-----------------------------------------------------------------------------------------------------------------
     // Windows Timing - End

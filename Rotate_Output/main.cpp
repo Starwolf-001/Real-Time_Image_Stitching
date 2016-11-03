@@ -27,6 +27,12 @@ int main(int argc, char** argv)
 
     warpAffine(image_1_input, image_1, rotOne, boxOne.size());
 
+    // Set JPEG lossy compression to minimal
+    vector <int> compression_params;
+    compression_params.push_back(CV_IMWRITE_JPEG_QUALITY);
+    // 100% best possible quality
+    compression_params.push_back(100);
+
     // Write image
-    imwrite("Update.jpg", image_1);
+    imwrite("Update.jpg", image_1, compression_params);
 }
